@@ -17,4 +17,4 @@ gpio.wait_for_edge(4, gpio.FALLING)
 # os.system('shutdown now -h')nts here
 
 # Reboot
-os.system('reboot')nts here
+os.system('reboot')
