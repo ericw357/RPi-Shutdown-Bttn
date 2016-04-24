@@ -1,4 +1,4 @@
-Enter file conte#!/usr/bin/python
+#!/usr/bin/python
 
 # Import the modules to send commands to the system and access GPIO pins
 import RPi.GPIO as gpio
