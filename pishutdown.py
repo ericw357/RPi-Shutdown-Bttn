@@ -4,8 +4,8 @@ Enter file conte#!/usr/bin/python
 import RPi.GPIO as gpio
 import os
 
-#Set pin numbering to board numbering
-gpio.setmode(gpio.BOARD)
+#Set pin numbering
+gpio.setmode(gpio.BCM)
 
 #Set up pin 4 as an input
 gpio.setup(4, gpio.IN, pull_up_down = GPIO.PUD_UP) 
