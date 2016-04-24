@@ -8,10 +8,13 @@ import os
 gpio.setmode(gpio.BOARD)
 
 #Set up pin 7 as an input
-gpio.setup(7, gpio.IN) 
+gpio.setup(7, gpio.IN, pull_up_down = GPIO.PUD_UP) 
 
 # Set up an interrupt to look for pressed button
 gpio.wait_for_edge(7, gpio.FALLING) 
 
 # Shutdown
-os.system('shutdown now -h')nts here
+# os.system('shutdown now -h')nts here
+
+# Reboot
+os.system('reboot')nts here
