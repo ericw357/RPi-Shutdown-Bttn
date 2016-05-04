@@ -3,6 +3,7 @@
  The Raspberry Pi needs a script that tells it to shutdown if it gets the shutdown signal. This is a Python script that waits for this signal on a specified GPIO pin. We'll watch out for GPIO pin 7. On the model B this is GPIO4. 
  
  clone this git into the /home/pi/ directory
+ 
  git clone https://github.com/ericw357/pishutdown.git 
 
 A shell script that starts our Python script with root access.
